@@ -2,8 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-my_list = ['this', 'is', 'a', 'list']
 
+my_list = []
 
 @app.route('/')
 def index():
@@ -23,6 +23,14 @@ def senior():
 @app.route('/racing')
 def race():
     return render_template('race.html')
+
+@app.route('/resume')
+def resume():
+    pass
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
 
 
 if __name__ == '__main__':

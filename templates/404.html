@@ -1,0 +1,14 @@
+{% extends "basic.html" %}
+{% block content %}
+
+    <div class="container">
+      <h1>Page Not Found</h1>
+        <p>You've ended up somewhere you shouldn't!
+            <br>
+        <a href="{{url_for('index') }}">
+            <button type="button" class="btn btn-primary">Return to safety</button>
+        </a>
+
+    </div>
+
+{% endblock %}
