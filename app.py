@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file, redirect, url_for
 
 app = Flask(__name__)
 
@@ -31,6 +31,11 @@ def resume():
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'), 404
+
+@app.route('/pdf')
+def pdf():
+    file_name = 'res.pdf'
+    return redirect(url_for('static', filename='/'.join(['pdfs', file_name])), code=301)
 
 
 if __name__ == '__main__':
