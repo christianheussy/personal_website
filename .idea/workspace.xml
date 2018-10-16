@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0274eda-aac8-4f64-acc4-987f9f93ac20" name="Default Changelist" comment="" />
+    <list default="true" id="a0274eda-aac8-4f64-acc4-987f9f93ac20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,13 +93,13 @@
           <entry key="Procfile" value="1" />
           <entry key="md" value="1" />
           <entry key="py" value="4" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
@@ -166,8 +168,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="67" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="753" />
     <option name="y" value="25" />
     <option name="width" value="687" />
     <option name="height" value="875" />
@@ -391,9 +393,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="687" height="875" extended-state="4" />
+    <frame x="67" y="25" width="1373" height="875" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8582677" visible="true" weight="0.2936747" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8582677" visible="true" weight="0.14444445" />
       <window_info id="Structure" order="1" sideWeight="0.14173229" side_tool="true" weight="0.3891273" />
       <window_info id="Favorites" order="2" sideWeight="0.50159234" side_tool="true" weight="0.24960506" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,7 +406,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32804233" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.71467024" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4629879" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -545,9 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -574,6 +573,9 @@
           <caret lean-forward="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
